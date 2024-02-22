@@ -15,7 +15,7 @@
 // DOM 을 포함하면 TS가 JS API의 타입을 이해하게 됨.
 
 
-import {init,exit} from "myPackage";
+import {init,exit} from "./myPackage";
 
 // strict 모드를 활성화하면 myPackage에 에러가 나는데
 // Could not find a declaration file for module 'myPackage'. 
@@ -38,3 +38,4 @@ init({
     url:"true"
 })
 exit(1)
+
