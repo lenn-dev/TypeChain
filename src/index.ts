@@ -1,3 +1,4 @@
+console.log("bye")
 // const hello =()=> "hi"
 
 // class Block {
@@ -21,7 +22,7 @@ import {init,exit} from "./myPackage";
 // Could not find a declaration file for module 'myPackage'. 
 // declaration file 이란 JS 코드타입을 TS에 설명해주는 파일을 말함 => d.ts 파일을 만들것임
 
-localStorage
+//localStorage
 // cmd(ctrl) 누르고 localStorage 클릭해 보면 declare 가 많은 lib.dom.d.ts 로 이동하게 되는데
 // call signiture 타입의 모음인걸 알 수 있다.
 // TS 가 이 d.ts(declaration) 파일을 가지고 있을때 비로소 자동완성이 가능해짐

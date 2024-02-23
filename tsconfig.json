@@ -7,6 +7,9 @@
         "lib":["ES6","DOM"],// TS 가 어떤 환경에서 작동할 것인지
         "strict":true, // strict 모드 활성화
         "allowJs":true,
+        //"esModuleInterop":true,
+        //"module":"CommonJS" // 브라우저 앱이라면 "umd" 
+
     }
     
 }
