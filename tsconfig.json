@@ -1,12 +1,13 @@
 {
-
+    // 읽을 ts 파일 어디 위치하는지
     "include": ["src", "lodash_modules/every.js", "lodash_modules/filter.js", "lodash_modules/hasIn.js", "lodash_modules/hasPath.js", "lodash_modules/head.js", "lodash_modules/isBoolean.js", "lodash_modules/map.js", "lodash_modules/split.js", "lodash_modules/toString.js"],//TS 파일이 어디 위치하는지
     "compilerOptions": { 
-        "outDir":"build",//TS 컴파일한 JS 파일 어디에 만들지
-        "target": "ES6",// 어떤 JS버전으로 컴파일 할건지
-        "lib":["ES6","DOM"],// TS 가 어떤 환경에서 작동할 것인지
+        "outDir":"build",//TS 컴파일한 JS 파일 저장할 directory
+        "target": "ES6",// 컴파일될 js 버전
+        "lib":["ES6","DOM"],// ts가 실행될 환경(브라우저,서버)
         "strict":true, // strict 모드 활성화
         "allowJs":true,
+      
     }
     
 }
